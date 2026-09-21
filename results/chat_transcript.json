@@ -1,0 +1,59 @@
+{
+  "model": "llm_runs/20260921T171153_136482Z/model.pt",
+  "model_sha256": "76e532c9720201b200ef24a5da5707a9b8a436a096702211b887606487e834e1",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "the surgeon discussed the",
+      "seed": 2026,
+      "response": "hospital every day .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the opposite of tall is",
+      "seed": 2027,
+      "response": "warm .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "a duckling grows into a",
+      "seed": 2028,
+      "response": "duck . a puppy grows into a dog .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "one horse",
+      "seed": 2029,
+      "response": "is heavy .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "what is the capital of france ?",
+      "seed": 2030,
+      "response": "the important customer .",
+      "unknown_prompt_words": [
+        "?",
+        "capital",
+        "france",
+        "what"
+      ],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the team discussed the customer and the service at the store and then the report about the merchandise explains the quality in detail and our office has a question about the new application and the security update and the tutor reviewed the lesson and the course at the school and the surgeon explained the treatment",
+      "seed": 2031,
+      "response": "in detail .",
+      "unknown_prompt_words": [
+        "explained"
+      ],
+      "prompt_truncated": true
+    }
+  ]
+}

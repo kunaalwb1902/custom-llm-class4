@@ -1,0 +1,27 @@
+
+'customer'  id=58  occurrences in corpus=115  vector moved 0.668 in 64-D space
+  before training                    after training                    
+  walked                 +0.335     shopper                +0.979
+  a                      +0.280     client                 +0.978
+  offering               +0.274     subscriber             +0.975
+  time                   +0.254     buyer                  +0.973
+  cotton                 +0.253     consumer               +0.971
+  horse                  +0.242     surgeon                +0.503
+
+'salmon'  id=207  occurrences in corpus=35  vector moved 0.560 in 64-D space
+  before training                    after training                    
+  tool                   +0.275     trout                  +0.891
+  design                 +0.273     carrot                 +0.830
+  strong                 +0.264     robin                  +0.802
+  happy                  +0.253     sparrow                +0.759
+  foal                   +0.248     goat                   +0.728
+  dirty                  +0.239     ball                   +0.701
+
+'cold'  id=46  occurrences in corpus=15  vector moved 0.610 in 64-D space
+  before training                    after training                    
+  cool                   +0.400     up                     +0.776
+  are                    +0.343     cool                   +0.742
+  birds                  +0.334     weak                   +0.723
+  i                      +0.308     full                   +0.688
+  she                    +0.294     short                  +0.659
+  kind                   +0.259     open                   +0.655

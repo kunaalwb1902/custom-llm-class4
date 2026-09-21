@@ -1,0 +1,20 @@
+number of parameters: 0.12M
+Tiny language model: short continuations, not a general assistant.
+Each prompt starts fresh. Context: 48 tokens. Type /quit to exit.
+You: the surgeon discussed the
+Model: hospital every day .
+You: the opposite of tall is
+Model: warm .
+You: a duckling grows into a
+Model: duck . a puppy grows into a dog .
+You: one horse
+Model: is heavy .
+You: what is the capital of france ?
+Model: the important customer .
+Unknown words: ?, capital, france, what
+You: the team discussed the customer and the service at the store and then the report about the merchandise explains the quality in detail and our office has a question about the new application and the security update and the tutor reviewed the lesson and the course at the school and the surgeon explained the treatment
+Model: in detail .
+Unknown words: explained
+Long prompt: only the most recent context tokens were used.
+You: /quit
+Saved transcript: results/chat_transcript.json

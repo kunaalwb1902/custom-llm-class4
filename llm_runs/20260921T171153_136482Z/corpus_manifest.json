@@ -1,0 +1,43 @@
+{
+  "files": [
+    {
+      "file": "categories.md",
+      "bytes": 17520,
+      "sha256": "acf77e3ab35fa81c9d1a92dc2e7ff956e37364916027eea056fc0947181c28b5",
+      "warnings": [],
+      "characters": 17520,
+      "passages": 438,
+      "unique_passages": 438,
+      "preview": "a hammer is a tool .silk is a fabric .\nsilk is a fabric .a bus is a vehicle .\ncopper is a metal .a pine is a tree .\na duckling grows into a duck .\nevery tuna is a kind of fish .\na duckling grows into a duck .a lamb grows into a sheep .\na chick grows into a bird .a puppy grows into a dog .\na seed gro"
+    },
+    {
+      "file": "grammar.md",
+      "bytes": 29233,
+      "sha256": "1cf6c2c127252fcc61cf9ad8a633a62a09f6f7a47e8998f3433ba9cad20519e1",
+      "warnings": [],
+      "characters": 29233,
+      "passages": 1147,
+      "unique_passages": 1147,
+      "preview": "two cups are soft .\none ball is loud .\none apple is light .\nthe apple was big yesterday .\ntwo ducks are soft .\nthe desks are quiet .\nthe cup is heavy .\none cat is clean .\none box is quiet .\nnina is walking to the store now .\nthe shelf is dirty .\nmaya walked to the hospital yesterday .\nthe bag is cle"
+    },
+    {
+      "file": "opposites.md",
+      "bytes": 12093,
+      "sha256": "3a2e3edfb53f0b3885a415f451a639ec92602f5a34e40df82497d5ee333b8ff0",
+      "warnings": [],
+      "characters": 12093,
+      "passages": 349,
+      "unique_passages": 349,
+      "preview": "nothing is big and small at the same time .\nwhen something is not old it is new .\nsomething small is never big .\nthe opposite of cold is hot .\nsomething happy is never sad .\nfull and empty are opposites .\nclean and dirty are opposites .\nsomething full is never empty .\nweak is the opposite of strong "
+    }
+  ],
+  "ignored": [],
+  "external_passages": 1934,
+  "mode": "classroom",
+  "base_passages": 6200,
+  "unique_passages": 6526,
+  "new_unique_passages": 1934,
+  "duplicates_removed": 1608,
+  "max_passage_tokens": 47,
+  "split_unit": "deduplicated passage, not source file"
+}

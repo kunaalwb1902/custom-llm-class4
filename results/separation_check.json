@@ -1,0 +1,832 @@
+[
+  {
+    "run": "20260921T170450_805820Z",
+    "passages": 6200,
+    "prompt_hits": [],
+    "answer_list_hits": [],
+    "overlap": [
+      {
+        "id": "lang_01",
+        "group": "starter_patterns",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_shared_ngram": 4,
+        "fraction": 0.5714285714285714
+      },
+      {
+        "id": "lang_02",
+        "group": "starter_patterns",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_shared_ngram": 4,
+        "fraction": 0.5714285714285714
+      },
+      {
+        "id": "lang_03",
+        "group": "starter_patterns",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_shared_ngram": 4,
+        "fraction": 0.5714285714285714
+      },
+      {
+        "id": "lang_04",
+        "group": "starter_patterns",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_shared_ngram": 4,
+        "fraction": 0.5714285714285714
+      },
+      {
+        "id": "lang_05",
+        "group": "starter_patterns",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_shared_ngram": 4,
+        "fraction": 0.5714285714285714
+      },
+      {
+        "id": "lang_06",
+        "group": "starter_patterns",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_shared_ngram": 4,
+        "fraction": 0.5714285714285714
+      },
+      {
+        "id": "lang_07",
+        "group": "starter_patterns",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_shared_ngram": 4,
+        "fraction": 0.5714285714285714
+      },
+      {
+        "id": "lang_08",
+        "group": "starter_patterns",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_shared_ngram": 4,
+        "fraction": 0.5714285714285714
+      },
+      {
+        "id": "lang_09",
+        "group": "starter_patterns",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 7,
+        "fraction": 0.7
+      },
+      {
+        "id": "lang_10",
+        "group": "starter_patterns",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 7,
+        "fraction": 0.7
+      },
+      {
+        "id": "lang_11",
+        "group": "starter_patterns",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 7,
+        "fraction": 0.7
+      },
+      {
+        "id": "lang_12",
+        "group": "starter_patterns",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 7,
+        "fraction": 0.7
+      },
+      {
+        "id": "lang_13",
+        "group": "starter_patterns",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 7,
+        "fraction": 0.7
+      },
+      {
+        "id": "lang_14",
+        "group": "starter_patterns",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 7,
+        "fraction": 0.7
+      },
+      {
+        "id": "lang_15",
+        "group": "starter_patterns",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 7,
+        "fraction": 0.7
+      },
+      {
+        "id": "lang_16",
+        "group": "starter_patterns",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 7,
+        "fraction": 0.7
+      },
+      {
+        "id": "lang_17",
+        "group": "starter_transfer",
+        "category": "new_wording",
+        "prompt_tokens": 7,
+        "longest_shared_ngram": 5,
+        "fraction": 0.7142857142857143
+      },
+      {
+        "id": "lang_18",
+        "group": "starter_transfer",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_shared_ngram": 5,
+        "fraction": 0.625
+      },
+      {
+        "id": "lang_19",
+        "group": "starter_transfer",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_shared_ngram": 5,
+        "fraction": 0.625
+      },
+      {
+        "id": "lang_20",
+        "group": "starter_transfer",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_shared_ngram": 5,
+        "fraction": 0.625
+      },
+      {
+        "id": "lang_21",
+        "group": "starter_transfer",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_shared_ngram": 4,
+        "fraction": 0.5
+      },
+      {
+        "id": "lang_22",
+        "group": "starter_transfer",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_shared_ngram": 5,
+        "fraction": 0.625
+      },
+      {
+        "id": "lang_23",
+        "group": "starter_transfer",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_shared_ngram": 5,
+        "fraction": 0.625
+      },
+      {
+        "id": "lang_24",
+        "group": "starter_transfer",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_shared_ngram": 4,
+        "fraction": 0.5
+      },
+      {
+        "id": "lang_25",
+        "group": "extend_corpus",
+        "category": "grammar",
+        "prompt_tokens": 2,
+        "longest_shared_ngram": 0,
+        "fraction": 0.0
+      },
+      {
+        "id": "lang_26",
+        "group": "extend_corpus",
+        "category": "grammar",
+        "prompt_tokens": 2,
+        "longest_shared_ngram": 1,
+        "fraction": 0.5
+      },
+      {
+        "id": "lang_27",
+        "group": "extend_corpus",
+        "category": "grammar",
+        "prompt_tokens": 2,
+        "longest_shared_ngram": 1,
+        "fraction": 0.5
+      },
+      {
+        "id": "lang_28",
+        "group": "extend_corpus",
+        "category": "opposites",
+        "prompt_tokens": 5,
+        "longest_shared_ngram": 1,
+        "fraction": 0.2
+      },
+      {
+        "id": "lang_29",
+        "group": "extend_corpus",
+        "category": "opposites",
+        "prompt_tokens": 5,
+        "longest_shared_ngram": 1,
+        "fraction": 0.2
+      },
+      {
+        "id": "lang_30",
+        "group": "extend_corpus",
+        "category": "opposites",
+        "prompt_tokens": 5,
+        "longest_shared_ngram": 1,
+        "fraction": 0.2
+      },
+      {
+        "id": "lang_31",
+        "group": "extend_corpus",
+        "category": "negation",
+        "prompt_tokens": 13,
+        "longest_shared_ngram": 1,
+        "fraction": 0.07692307692307693
+      },
+      {
+        "id": "lang_32",
+        "group": "extend_corpus",
+        "category": "negation",
+        "prompt_tokens": 12,
+        "longest_shared_ngram": 1,
+        "fraction": 0.08333333333333333
+      },
+      {
+        "id": "lang_33",
+        "group": "extend_corpus",
+        "category": "negation",
+        "prompt_tokens": 13,
+        "longest_shared_ngram": 1,
+        "fraction": 0.07692307692307693
+      },
+      {
+        "id": "lang_34",
+        "group": "extend_corpus",
+        "category": "reference",
+        "prompt_tokens": 9,
+        "longest_shared_ngram": 1,
+        "fraction": 0.1111111111111111
+      },
+      {
+        "id": "lang_35",
+        "group": "extend_corpus",
+        "category": "reference",
+        "prompt_tokens": 13,
+        "longest_shared_ngram": 1,
+        "fraction": 0.07692307692307693
+      },
+      {
+        "id": "lang_36",
+        "group": "extend_corpus",
+        "category": "reference",
+        "prompt_tokens": 9,
+        "longest_shared_ngram": 1,
+        "fraction": 0.1111111111111111
+      },
+      {
+        "id": "lang_37",
+        "group": "extend_corpus",
+        "category": "sequence",
+        "prompt_tokens": 13,
+        "longest_shared_ngram": 1,
+        "fraction": 0.07692307692307693
+      },
+      {
+        "id": "lang_38",
+        "group": "extend_corpus",
+        "category": "sequence",
+        "prompt_tokens": 9,
+        "longest_shared_ngram": 1,
+        "fraction": 0.1111111111111111
+      },
+      {
+        "id": "lang_39",
+        "group": "extend_corpus",
+        "category": "sequence",
+        "prompt_tokens": 14,
+        "longest_shared_ngram": 2,
+        "fraction": 0.14285714285714285
+      },
+      {
+        "id": "lang_40",
+        "group": "extend_corpus",
+        "category": "spatial_relations",
+        "prompt_tokens": 11,
+        "longest_shared_ngram": 1,
+        "fraction": 0.09090909090909091
+      },
+      {
+        "id": "lang_41",
+        "group": "extend_corpus",
+        "category": "spatial_relations",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 1,
+        "fraction": 0.1
+      },
+      {
+        "id": "lang_42",
+        "group": "extend_corpus",
+        "category": "spatial_relations",
+        "prompt_tokens": 13,
+        "longest_shared_ngram": 1,
+        "fraction": 0.07692307692307693
+      },
+      {
+        "id": "lang_43",
+        "group": "extend_corpus",
+        "category": "everyday_knowledge",
+        "prompt_tokens": 3,
+        "longest_shared_ngram": 0,
+        "fraction": 0.0
+      },
+      {
+        "id": "lang_44",
+        "group": "extend_corpus",
+        "category": "everyday_knowledge",
+        "prompt_tokens": 7,
+        "longest_shared_ngram": 1,
+        "fraction": 0.14285714285714285
+      },
+      {
+        "id": "lang_45",
+        "group": "extend_corpus",
+        "category": "everyday_knowledge",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 1,
+        "fraction": 0.1
+      },
+      {
+        "id": "lang_46",
+        "group": "extend_corpus",
+        "category": "categories_and_analogies",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 1,
+        "fraction": 0.1
+      },
+      {
+        "id": "lang_47",
+        "group": "extend_corpus",
+        "category": "categories_and_analogies",
+        "prompt_tokens": 12,
+        "longest_shared_ngram": 1,
+        "fraction": 0.08333333333333333
+      },
+      {
+        "id": "lang_48",
+        "group": "extend_corpus",
+        "category": "categories_and_analogies",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 1,
+        "fraction": 0.1
+      }
+    ],
+    "notebook_eval_separation": {
+      "excluded_passages": 160,
+      "case_ids": [
+        "lang_01",
+        "lang_02",
+        "lang_03",
+        "lang_04",
+        "lang_05",
+        "lang_06",
+        "lang_07",
+        "lang_08",
+        "lang_09",
+        "lang_10",
+        "lang_11",
+        "lang_12",
+        "lang_13",
+        "lang_14",
+        "lang_15",
+        "lang_16"
+      ],
+      "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
+      "method": "normalized contiguous prompt match; not a semantic leakage detector"
+    }
+  },
+  {
+    "run": "20260921T171153_136482Z",
+    "passages": 8134,
+    "prompt_hits": [],
+    "answer_list_hits": [],
+    "overlap": [
+      {
+        "id": "lang_01",
+        "group": "starter_patterns",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_shared_ngram": 4,
+        "fraction": 0.5714285714285714
+      },
+      {
+        "id": "lang_02",
+        "group": "starter_patterns",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_shared_ngram": 4,
+        "fraction": 0.5714285714285714
+      },
+      {
+        "id": "lang_03",
+        "group": "starter_patterns",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_shared_ngram": 4,
+        "fraction": 0.5714285714285714
+      },
+      {
+        "id": "lang_04",
+        "group": "starter_patterns",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_shared_ngram": 4,
+        "fraction": 0.5714285714285714
+      },
+      {
+        "id": "lang_05",
+        "group": "starter_patterns",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_shared_ngram": 4,
+        "fraction": 0.5714285714285714
+      },
+      {
+        "id": "lang_06",
+        "group": "starter_patterns",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_shared_ngram": 4,
+        "fraction": 0.5714285714285714
+      },
+      {
+        "id": "lang_07",
+        "group": "starter_patterns",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_shared_ngram": 4,
+        "fraction": 0.5714285714285714
+      },
+      {
+        "id": "lang_08",
+        "group": "starter_patterns",
+        "category": "domain_context",
+        "prompt_tokens": 7,
+        "longest_shared_ngram": 4,
+        "fraction": 0.5714285714285714
+      },
+      {
+        "id": "lang_09",
+        "group": "starter_patterns",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 7,
+        "fraction": 0.7
+      },
+      {
+        "id": "lang_10",
+        "group": "starter_patterns",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 7,
+        "fraction": 0.7
+      },
+      {
+        "id": "lang_11",
+        "group": "starter_patterns",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 7,
+        "fraction": 0.7
+      },
+      {
+        "id": "lang_12",
+        "group": "starter_patterns",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 7,
+        "fraction": 0.7
+      },
+      {
+        "id": "lang_13",
+        "group": "starter_patterns",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 7,
+        "fraction": 0.7
+      },
+      {
+        "id": "lang_14",
+        "group": "starter_patterns",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 7,
+        "fraction": 0.7
+      },
+      {
+        "id": "lang_15",
+        "group": "starter_patterns",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 7,
+        "fraction": 0.7
+      },
+      {
+        "id": "lang_16",
+        "group": "starter_patterns",
+        "category": "domain_place",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 7,
+        "fraction": 0.7
+      },
+      {
+        "id": "lang_17",
+        "group": "starter_transfer",
+        "category": "new_wording",
+        "prompt_tokens": 7,
+        "longest_shared_ngram": 5,
+        "fraction": 0.7142857142857143
+      },
+      {
+        "id": "lang_18",
+        "group": "starter_transfer",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_shared_ngram": 5,
+        "fraction": 0.625
+      },
+      {
+        "id": "lang_19",
+        "group": "starter_transfer",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_shared_ngram": 5,
+        "fraction": 0.625
+      },
+      {
+        "id": "lang_20",
+        "group": "starter_transfer",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_shared_ngram": 5,
+        "fraction": 0.625
+      },
+      {
+        "id": "lang_21",
+        "group": "starter_transfer",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_shared_ngram": 4,
+        "fraction": 0.5
+      },
+      {
+        "id": "lang_22",
+        "group": "starter_transfer",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_shared_ngram": 5,
+        "fraction": 0.625
+      },
+      {
+        "id": "lang_23",
+        "group": "starter_transfer",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_shared_ngram": 5,
+        "fraction": 0.625
+      },
+      {
+        "id": "lang_24",
+        "group": "starter_transfer",
+        "category": "new_wording",
+        "prompt_tokens": 8,
+        "longest_shared_ngram": 4,
+        "fraction": 0.5
+      },
+      {
+        "id": "lang_25",
+        "group": "extend_corpus",
+        "category": "grammar",
+        "prompt_tokens": 2,
+        "longest_shared_ngram": 1,
+        "fraction": 0.5
+      },
+      {
+        "id": "lang_26",
+        "group": "extend_corpus",
+        "category": "grammar",
+        "prompt_tokens": 2,
+        "longest_shared_ngram": 1,
+        "fraction": 0.5
+      },
+      {
+        "id": "lang_27",
+        "group": "extend_corpus",
+        "category": "grammar",
+        "prompt_tokens": 2,
+        "longest_shared_ngram": 1,
+        "fraction": 0.5
+      },
+      {
+        "id": "lang_28",
+        "group": "extend_corpus",
+        "category": "opposites",
+        "prompt_tokens": 5,
+        "longest_shared_ngram": 4,
+        "fraction": 0.8
+      },
+      {
+        "id": "lang_29",
+        "group": "extend_corpus",
+        "category": "opposites",
+        "prompt_tokens": 5,
+        "longest_shared_ngram": 4,
+        "fraction": 0.8
+      },
+      {
+        "id": "lang_30",
+        "group": "extend_corpus",
+        "category": "opposites",
+        "prompt_tokens": 5,
+        "longest_shared_ngram": 4,
+        "fraction": 0.8
+      },
+      {
+        "id": "lang_31",
+        "group": "extend_corpus",
+        "category": "negation",
+        "prompt_tokens": 13,
+        "longest_shared_ngram": 3,
+        "fraction": 0.23076923076923078
+      },
+      {
+        "id": "lang_32",
+        "group": "extend_corpus",
+        "category": "negation",
+        "prompt_tokens": 12,
+        "longest_shared_ngram": 1,
+        "fraction": 0.08333333333333333
+      },
+      {
+        "id": "lang_33",
+        "group": "extend_corpus",
+        "category": "negation",
+        "prompt_tokens": 13,
+        "longest_shared_ngram": 4,
+        "fraction": 0.3076923076923077
+      },
+      {
+        "id": "lang_34",
+        "group": "extend_corpus",
+        "category": "reference",
+        "prompt_tokens": 9,
+        "longest_shared_ngram": 1,
+        "fraction": 0.1111111111111111
+      },
+      {
+        "id": "lang_35",
+        "group": "extend_corpus",
+        "category": "reference",
+        "prompt_tokens": 13,
+        "longest_shared_ngram": 1,
+        "fraction": 0.07692307692307693
+      },
+      {
+        "id": "lang_36",
+        "group": "extend_corpus",
+        "category": "reference",
+        "prompt_tokens": 9,
+        "longest_shared_ngram": 1,
+        "fraction": 0.1111111111111111
+      },
+      {
+        "id": "lang_37",
+        "group": "extend_corpus",
+        "category": "sequence",
+        "prompt_tokens": 13,
+        "longest_shared_ngram": 2,
+        "fraction": 0.15384615384615385
+      },
+      {
+        "id": "lang_38",
+        "group": "extend_corpus",
+        "category": "sequence",
+        "prompt_tokens": 9,
+        "longest_shared_ngram": 1,
+        "fraction": 0.1111111111111111
+      },
+      {
+        "id": "lang_39",
+        "group": "extend_corpus",
+        "category": "sequence",
+        "prompt_tokens": 14,
+        "longest_shared_ngram": 2,
+        "fraction": 0.14285714285714285
+      },
+      {
+        "id": "lang_40",
+        "group": "extend_corpus",
+        "category": "spatial_relations",
+        "prompt_tokens": 11,
+        "longest_shared_ngram": 3,
+        "fraction": 0.2727272727272727
+      },
+      {
+        "id": "lang_41",
+        "group": "extend_corpus",
+        "category": "spatial_relations",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 3,
+        "fraction": 0.3
+      },
+      {
+        "id": "lang_42",
+        "group": "extend_corpus",
+        "category": "spatial_relations",
+        "prompt_tokens": 13,
+        "longest_shared_ngram": 3,
+        "fraction": 0.23076923076923078
+      },
+      {
+        "id": "lang_43",
+        "group": "extend_corpus",
+        "category": "everyday_knowledge",
+        "prompt_tokens": 3,
+        "longest_shared_ngram": 1,
+        "fraction": 0.3333333333333333
+      },
+      {
+        "id": "lang_44",
+        "group": "extend_corpus",
+        "category": "everyday_knowledge",
+        "prompt_tokens": 7,
+        "longest_shared_ngram": 1,
+        "fraction": 0.14285714285714285
+      },
+      {
+        "id": "lang_45",
+        "group": "extend_corpus",
+        "category": "everyday_knowledge",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 1,
+        "fraction": 0.1
+      },
+      {
+        "id": "lang_46",
+        "group": "extend_corpus",
+        "category": "categories_and_analogies",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 8,
+        "fraction": 0.8
+      },
+      {
+        "id": "lang_47",
+        "group": "extend_corpus",
+        "category": "categories_and_analogies",
+        "prompt_tokens": 12,
+        "longest_shared_ngram": 8,
+        "fraction": 0.6666666666666666
+      },
+      {
+        "id": "lang_48",
+        "group": "extend_corpus",
+        "category": "categories_and_analogies",
+        "prompt_tokens": 10,
+        "longest_shared_ngram": 8,
+        "fraction": 0.8
+      }
+    ],
+    "notebook_eval_separation": {
+      "excluded_passages": 160,
+      "case_ids": [
+        "lang_01",
+        "lang_02",
+        "lang_03",
+        "lang_04",
+        "lang_05",
+        "lang_06",
+        "lang_07",
+        "lang_08",
+        "lang_09",
+        "lang_10",
+        "lang_11",
+        "lang_12",
+        "lang_13",
+        "lang_14",
+        "lang_15",
+        "lang_16"
+      ],
+      "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
+      "method": "normalized contiguous prompt match; not a semantic leakage detector"
+    }
+  }
+]

@@ -1,11 +1,9 @@
 __pycache__/
 .ipynb_checkpoints/
 .venv/
-/llm_runs/
-names.txt
 .DS_Store
-/corpus/*
-!/corpus/README.md
+names.txt
 
-/results/
-/chat_transcript.json
+# Everything below is deliberately tracked in this repository, unlike the
+# upstream starter which git-ignores it: corpus/ holds the teaching material
+# this experiment authored, and llm_runs/ + results/ are the graded evidence.
