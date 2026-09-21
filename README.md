@@ -576,6 +576,15 @@ temperature, but *the second word of an antonym pair*. The model learned the sha
 the template and which words fill the final slot, and only partially learned which
 specific word goes with which specific partner.
 
+The live chat session shows the same thing from the other direction. Asked
+`who is dog` — a question, with `who` outside its vocabulary — the model put **99.7%**
+of its probability on `and` and produced `and weak at the same time .`, running out a
+teaching template (`nothing is big and small at the same time .`) that has nothing to
+do with the question. It is not answering; it is falling back to the nearest shape it
+knows. Asked `where is the dog`, it put **90.9%** on `.` and stopped. Both are correct
+behaviour for what this model actually is, and both are the reason the interface is
+labelled a tiny language model rather than an assistant.
+
 ### A limitation of the setup itself
 
 Validation passages are drawn from the same deduplicated pool as training passages, so
@@ -611,35 +620,61 @@ corpus.
 Model used: `llm_runs/20260921T171153_136482Z/model.pt` (Experiment B, 3,000 steps),
 `model_sha256` `76e532c9720201b2…`.
 
-Evidence: [`results/chat_recording.txt`](results/chat_recording.txt) — the recorded
-terminal session, exactly as it appeared — plus
-[`results/chat_transcript.md`](results/chat_transcript.md) (readable table) and
-[`results/chat_transcript.json`](results/chat_transcript.json) (written by `chat.py`
-itself, with seeds and per-turn flags).
+There are two sessions, both against the same model file. `chat.py` writes its own
+JSON transcript for each, including the per-turn seed and flags.
 
-The recording was captured with
-[`scripts/record_chat.py`](scripts/record_chat.py), which runs the unmodified
-`chat.py` inside a pseudo-terminal and types one prompt at a time, waiting for each
-`You:` prompt. It supplies only the keystrokes; every reply is real output from the
-trained model, and `chat.py` wrote its own JSON transcript in the same session.
-Running `chat.py` by hand produces the same interface.
+### Session 1 — live, typed by hand (15 turns)
 
-```
-You: a duckling grows into a
-Model: duck . a puppy grows into a dog .
-You: what is the capital of france ?
-Model: the important customer .
-Unknown words: ?, capital, france, what
-```
+Transcript: [`results/chat_live_session.md`](results/chat_live_session.md) ·
+raw JSON as written by `chat.py`:
+[`results/chat_screenshot_session2.json`](results/chat_screenshot_session2.json)
 
-| # | prompt | reply | note |
+| # | prompt | reply | what it shows |
+| --- | --- | --- | --- |
+| 1 | `where is the dog` | `.` | **limitation** — `where` is unknown; after `<UNK> is the dog` the model puts 90.9% on `.` and simply ends |
+| 2 | `who is dog` | `and weak at the same time .` | **failure** — `who` unknown; the model locks onto the teaching template `nothing is X and Y at the same time .` (99.7% on `and`) and runs it out |
+| 3 | `cold day` | `.` | both words known, but `cold day` is a pair it never saw; it ends the sentence |
+| 4 | `the team discussed the mango and the` | `harvest at the kitchen .` | classroom domain links |
+| 5 | `the trout is a` | `fish .` | taught category membership |
+| 6 | `the opposite of early is` | `late .` | taught opposites pattern |
+| 7 | `one goat` | `is clean .` | singular agreement — the model puts **99.8%** on `is` |
+| 8 | `the opposit of big is` | `small .` | a real typo: `opposit` is reported unknown, and it still answers correctly because `of big is` is enough context |
+| 9 | `the opposite of big is` | `small .` | the same prompt spelled correctly |
+| 10 | `two goats are` | `soft .` | plural agreement |
+| 11 | 55-token prompt | `in detail .` | **limitation** — `Long prompt: only the most recent context tokens were used.` |
+| 12 | `a lamb grows into a` | `sheep . a puppy grows into a dog .` | the taught two-clause analogy, both halves |
+| 13 | `yesterday leo` | `walked to the hospital .` | past tense after a past-time adverb |
+| 14–15 | `the opposite of wet is` | `dry .` (both times) | consistent across repeats |
+
+**Why turns 8 and 9 give the same answer but the eval and chat can disagree.** Chat
+samples at temperature 0.8 rather than taking the most likely word. After
+`the opposite of big is` the real distribution is `small` 0.436, `loud` 0.206, `big`
+0.149, `quiet` 0.073 — so `small` is the usual draw but not the only one. The 48-case
+eval takes the **highest-probability** choice (deterministic); chat **samples**
+(random). The same model can score 1/1 on a case and still say something wrong in
+conversation, which is exactly why both the four-choice score and the free
+continuation are saved for every eval case.
+
+### Session 2 — scripted replay of the same interface (6 turns)
+
+[`results/chat_recording.txt`](results/chat_recording.txt) — the terminal session
+exactly as it appeared — plus [`results/chat_transcript.md`](results/chat_transcript.md)
+and [`results/chat_transcript.json`](results/chat_transcript.json).
+
+Captured with [`scripts/record_chat.py`](scripts/record_chat.py), which runs the
+unmodified `chat.py` inside a pseudo-terminal and types one prompt at a time, waiting
+for each `You:` prompt. It supplies only the keystrokes; every reply is real output
+from the trained model. Its purpose is a reproducible set of prompts chosen to cover
+one case of each behaviour:
+
+| # | prompt | reply | what it shows |
 | --- | --- | --- | --- |
 | 1 | `the surgeon discussed the` | `hospital every day .` | classroom domain — links surgeon to hospital, then drifts into a phrase from the grammar file |
 | 2 | `the opposite of tall is` | `warm .` | **failure** — right template slot, wrong antonym |
 | 3 | `a duckling grows into a` | `duck . a puppy grows into a dog .` | the taught analogy pattern, including the second clause |
 | 4 | `one horse` | `is heavy .` | singular agreement, the lang_25 pattern |
 | 5 | `what is the capital of france ?` | `the important customer .` | **limitation** — reports unknown words `?`, `capital`, `france`, `what`, then continues in the only style it knows |
-| 6 | 55-token prompt (see transcript) | `in detail .` | **limitation** — reports `Long prompt: only the most recent context tokens were used.`; unknown word `explained` |
+| 6 | 55-token prompt (see transcript) | `in detail .` | **limitation** — `Long prompt: only the most recent context tokens were used.`; unknown word `explained` |
 
 Turn 5 is the clearest limitation: four of the seven words in an ordinary question do
 not exist in this model's vocabulary, and it cannot answer a question in any case — it

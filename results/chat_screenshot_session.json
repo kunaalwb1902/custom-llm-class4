@@ -1,0 +1,40 @@
+{
+  "model": "llm_runs/20260921T171153_136482Z/model.pt",
+  "model_sha256": "76e532c9720201b200ef24a5da5707a9b8a436a096702211b887606487e834e1",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "test",
+      "seed": 2026,
+      "response": "the local nurse application and code at the office .",
+      "unknown_prompt_words": [
+        "test"
+      ],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "full",
+      "seed": 2027,
+      "response": "walks to the bank every day .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "up",
+      "seed": 2028,
+      "response": "is the opposite of down .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "cold walk",
+      "seed": 2029,
+      "response": "to the station every day .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    }
+  ]
+}

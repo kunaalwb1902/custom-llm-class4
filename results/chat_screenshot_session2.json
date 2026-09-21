@@ -1,0 +1,121 @@
+{
+  "model": "llm_runs/20260921T171153_136482Z/model.pt",
+  "model_sha256": "76e532c9720201b200ef24a5da5707a9b8a436a096702211b887606487e834e1",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "where is the dog",
+      "seed": 2026,
+      "response": ".",
+      "unknown_prompt_words": [
+        "where"
+      ],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "who is dog",
+      "seed": 2027,
+      "response": "and weak at the same time .",
+      "unknown_prompt_words": [
+        "who"
+      ],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "cold day",
+      "seed": 2028,
+      "response": ".",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the team discussed the mango and the",
+      "seed": 2029,
+      "response": "harvest at the kitchen .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the trout is a",
+      "seed": 2030,
+      "response": "fish .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the opposite of early is",
+      "seed": 2031,
+      "response": "late .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "one goat",
+      "seed": 2032,
+      "response": "is clean .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the opposit of big is",
+      "seed": 2033,
+      "response": "small .",
+      "unknown_prompt_words": [
+        "opposit"
+      ],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the opposite of big is",
+      "seed": 2034,
+      "response": "small .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "two goats are",
+      "seed": 2035,
+      "response": "soft .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the team discussed the customer and the service at the store and then the report about the merchandise explains the quality in detail and our office has a question about the new application and the security update and the tutor reviewed the lesson and the course at the school and the doctor discussed the treatment",
+      "seed": 2036,
+      "response": "in detail .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": true
+    },
+    {
+      "prompt": "a lamb grows into a",
+      "seed": 2037,
+      "response": "sheep . a puppy grows into a dog .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "yesterday leo",
+      "seed": 2038,
+      "response": "walked to the hospital .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the opposite of wet is",
+      "seed": 2039,
+      "response": "dry .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the opposite of wet is",
+      "seed": 2040,
+      "response": "dry .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    }
+  ]
+}
