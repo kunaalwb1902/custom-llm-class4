@@ -174,9 +174,14 @@ templates, not whether it generalises to new kinds of text.
 
 ---
 
-## What I predicted, and what actually happened
+## What I expected, and what actually happened
 
-Written before the runs:
+To be straight about provenance: this list was written up after both runs, so treat
+it as "what I was designing for" rather than a sealed prediction. Expectations 2 and
+3 are the ones with real pre-run evidence — the corpus generator was built around
+them before Experiment B existed, and its comments say so in the committed source
+([why every distractor word had to be taught](scripts/make_teaching_corpus.py), and
+the decision to teach three categories rather than eight).
 
 1. *The starter run will do well on `starter_patterns` and much worse on
    `starter_transfer`, because the transfer cases rearrange the same words into
@@ -197,6 +202,10 @@ Written before the runs:
 5. *Adding ~30% new data will cost some starter-pattern accuracy.*
    **Wrong.** `starter_patterns` stayed at 16/16 and `starter_transfer` actually
    improved from 4/8 to 5/8.
+
+Experiment A was run and saved before the teaching corpus was written, so its
+numbers could not have been tuned after the fact; the two run folders' timestamps
+(`…T170450Z` and `…T171153Z`) and their `config.json` files record the order.
 
 ---
 
